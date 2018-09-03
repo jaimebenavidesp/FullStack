@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dónde insertar JavaScript</title>
+</head>
+<body>
+        <h2>JavaScript en el body - inserta y cambia</h2>
+        <p id="cambio">Un párrafo</p>
+
+        <button type="button" onclick="mifuncion()">!inserta y cambia¡</button>
+
+        <script>
+            function mifuncion(){
+                document.getElementById('cambio').innerHTML = 'PÁRRAFO CAMBIADO E INSERTADO LJBP'
+            }
+        </script>
+</body>
+</html>
